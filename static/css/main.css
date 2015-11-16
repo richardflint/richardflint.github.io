@@ -1,5 +1,14 @@
-.fa-2 {
-    font-size: 2em;
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* The html and body elements cannot have any padding or margin. */
+    border-top: 3px solid black;
+}
+
+.avatar {
+    padding-top: 5%;
 }
 
 footer a:link {
@@ -9,4 +18,8 @@ footer a:link {
 footer {
     border-top: thin ridge lightgray;
     padding-top: 2em;
+}
+
+.fa-2 {
+    font-size: 2em;
 }
