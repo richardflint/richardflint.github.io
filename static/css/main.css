@@ -1,0 +1,12 @@
+.fa-2 {
+    font-size: 2em;
+}
+
+footer a:link {
+    color: black;
+}
+
+footer {
+    border-top: thin ridge lightgray;
+    padding-top: 2em;
+}
