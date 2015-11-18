@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">
+                <strong><a href="{{ page.url }}">{{ page.title }}</a></strong>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="text-center">
+                {{ page.date | date: "%B %e, %Y" }}
+                &nbsp;&nbsp;
+                {% for tag in page.tags %}
+                <span class="label label-primary">{{ tag }}</span>
+                {% endfor %}
+            </h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4>
+                {{ content }}
+            </h4>
+        </div>
+    </div>
+</article>
