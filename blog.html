@@ -12,12 +12,12 @@ title: Blog
 
     {% for post in site.posts %}
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-6 col-md-6">
             <h4 class="text-right">
                 {{ post.date | date: "%B %e, %Y" }}
             </h4>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6 col-md-6">
             <h4 class="text-left">
                 <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
             </h4>
