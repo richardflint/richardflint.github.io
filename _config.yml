@@ -3,3 +3,5 @@ description: > # this means to ignore newlines until "baseurl:"
   Personal site for Richard Flint, blog posting about Java, Javascript, Agile
   and other thoughts about software development.
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://richardflint.github.io"
+disqus: "richardflint"
