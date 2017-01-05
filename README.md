@@ -10,4 +10,4 @@ This is my personal site built with [Jekyll](https://jekyllrb.com/).
 ##Preview
 Build the site and preview
 
-    `jekyll serve`
+`jekyll serve`
