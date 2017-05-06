@@ -1,14 +1,14 @@
-#My personal site
+# My personal site
 This is my personal site built with [Jekyll](https://jekyllrb.com/). 
 
-##Install
+## Install
 1. Install Ruby 
 2. Install Jekyll
 ```
 gem install jekyll
 ```
 
-##Preview
+## Preview
 Build the site and preview
 ```
 jekyll serve
